@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+.html{
+    font-size: 10px;
+}
+
+.master{
+    width: 100%;
+}
+
+.navbar{
+    padding-top: 15px;
+    background: white;
+    border: none;
+    height: 80px;
+}
+
+#mynavbar ul li a{
+    color: black;
+    font-weight: 600;
+}
+
+#mynavbar ul .color a{
+    background: #FD6802;
+    color: white;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.master .navbar-brand{
+    color: #FD6802;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.master .navbar-brand span{
+    color: black
+}
+
+.master .navbar-toggle{
+    background: #393939;
+    border-radius: 15px ;
+    border-radius: 15px 0px 15px 0px;
+}
+
+
+.first{
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0,0.2)0%, rgba(0, 0, 0,0.3)100%),url("../Image/27.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first .container{
+    padding-top: 150px;
+}
+
+.first h1{
+    /* background-color: red; */
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 600;
+    border-left: 8px solid #FD6802;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.first p{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.first span{
+    color: #FD6802;
+    font-size: 3rem;
+}
+
+
+/*  */
+
+.secondsection{
+    /* background: teal; */
+}
+
+
+.secondsection .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 250px;
+}
+
+.box span{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 5rem;
+}
+
+.box p{
+    color: gray;
+}
+
+
+/*  */
+
+.fifthsection{
+    width: 100%;
+    background: #F2F3F5;
+    padding-bottom: 100px;
+}
+
+.box4{
+    padding-top: 100px;
+}
+
+.box4 h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.box4 p{
+    font-size: 1.8rem;
+    color: gray;
+    line-height: 30px;
+}
+
+.box4a{
+    margin-top: 50px;
+}
+
+.box4a .card-body{
+    background: #FFFFFF;
+}
+
+.box4a h4{
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.box4a p{
+    font-size: 1.4rem;
+}
+
+.box4 button{
+    margin-top: 100px;
+    background: #FD6802;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.box4 button:hover{
+    background-color: #393939;
+    color: white;
+    border: 3px solid #FD6802;
+}
+
+
+/*  */
+
+
+.eightsection{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../Image/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.eightsection h1{
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.eightsection h3{
+    font-size: 1.8rem;
+    color: gray;
+}
+
+.eightsection .carousel-inner{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.box7{
+    margin-top: 70px;
+}
+
+.internal{
+    background: #393939;
+    height: 130px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.box7 h4{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 2.2rem;
+}
+
+.box7 span{
+    font-size: 4rem;
+    color: #FD6802;
+    padding-right: 15px;
+}
+
+.box7 p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.7rem;
+    color: gray;
+}
+
+.pic h5{
+    font-size: 1.8rem;
+}
+
+.pic h6{
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.pic{
+    padding-top: 30px;
+}
+
+.pic img{
+    width: 45%;
+    border-radius: 100%;
+}
+
+.pic .r{
+    position: relative;
+    left: -90px;
+}
+
+.photo{
+    padding-top: 50px;
+    border-top: 1px dotted gray;
+    margin-top: 50px;
+}
+
+.photo img{
+    width: 100%;
+}
+
+
+/*  */
+
+
+.ninthsection{
+    background: #393939;
+    color: white;
+}
+
+.ninthsection .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ninthsection p{
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 1.3rem;
+    color: rgb(169, 166, 166);
+}
+
+.box9 p{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 12px;
+}
+
+.box8 img{
+    padding-top: 20px;
+}
+
+.box8 p{
+    margin-top: 20px;
+}
+
+.box9 .active{
+    border-bottom: none;
+}
+
+/*  */
+
+.tenthsection{
+    background: black;
+    color: gray;
+}
+
+.tenthsection p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.7rem;
+}
+
+.tenthsection span{
+    color: white;
+}
+
+.tenthsection span:hover{
+    color: #FD6802;
+}
+
+
+
+
+
+
+/*  */
+
+
+@media only screen and (max-width:1200px){
+
+    #mynavbar ul{
+        margin-right: 20px;
+    }
+
+    .first{
+        height: 40vh;
+    }
+
+    .first .container{
+        padding-left: 70px;
+    }
+
+    .first h1{
+        margin-top: 50px;
+    }
+
+    .eightsection{
+        height: 80vh;
+    }
+
+    .pic img{
+        width: 52%;
+    }
+
+    .pic .r{
+        margin-left: 20px;
+    }
+
+}
+
+
+
+/* for tablets */
+
+
+@media only screen and (max-width:992px)
+{
+
+    #mynavbar ul{
+        margin-right: -20px;
+    }
+    
+    .secondsection img{
+        height: 500px;
+    }
+
+    .box4{
+        padding-top: 50px;
+    }
+
+    .box{
+        height: 300px;
+    }
+
+    .eightsection .carousel-control{
+        display: none;
+    }
+
+    .eightsection h1{
+        padding-top: 50px;
+    }
+
+    .box10{
+        text-align: center;
+    }
+
+    .box{
+        margin-top: 50px;
+    }
+
+    .card h4{
+        font-size: 2rem;
+    }
+
+    .ninthsection .container{
+        padding-top: 80px;
+    }
+
+    .secondsection .container{
+        margin-top: 50px;
+    }
+
+    .pic img{
+        margin-top: 5px;
+    }
+
+}
+
+
+/*  */
+
+
+
+/* for mobile phones */
+
+@media only screen and (max-width:768px)
+{
+
+    #mynavbar ul li{
+        font-size: 1rem;
+    }
+
+    .master .navbar-brand{
+        font-size: 2.5rem;
+    }
+
+    .secondsection .container{
+        margin-top: 50px;
+    }
+
+    .first h1{
+        font-size: 3rem;
+        height: 30px;
+    }
+
+    .box{
+        margin-top: 50px;
+        height: 250px;
+    }
+
+    .eightsection{
+        height: 72vh;
+    }
+
+    .box4 h4{
+        font-size: 2.5rem;
+    }
+
+    .pic img{
+        width: 80%;
+    }
+
+    .pic .r{
+        margin-left: 60px;
+    }
+
+}
+
+
+/*  */
